@@ -1,0 +1,53 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "variables";
+
+.contenedor{
+	max-width: 960px;
+	margin: auto;
+	text-align: center;
+	h2{
+		font-family: Arial, Helvetica, Sans-serif;
+		font-size: 28px;
+	}
+	.circulo{
+		width: $circulo_size;
+		height: $circulo_size;
+		border-radius: 50%;
+		display: inline-block;
+		transition: 0.9s;
+		margin: 10px;
+		&.fbk{
+			background-color: $facebook_color;			
+		}
+		&.twitter{
+			background-color: $twitter_color;
+		}
+		&.linkedin{
+			background-color: $linkedin_color;
+			
+		}
+		&.gplus{
+			background-color: $google_plus_color;
+		}	
+		&.pinterest{
+			background-color: $pinterest_color;
+			
+		}
+		&:hover{
+			transform: scale(1.2);
+		}
+		&.fbk:hover{background-color: darken($facebook_color, 20%);}
+		&.twitter:hover{background-color: darken($twitter_color, 20%);}
+		&.linkedin:hover{background-color: darken($linkedin_color, 20%);}
+		&.gplus:hover{background-color: darken($google_plus_color, 20%);}
+		&.pinterest:hover{background-color: darken($pinterest_color, 20%);}		
+		i{
+			font-size: 38px;
+			line-height: $circulo_size;
+			color: white;
+		}
+	}
+
+}
+
+

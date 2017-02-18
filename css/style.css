@@ -1,0 +1,43 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.contenedor {
+  max-width: 960px;
+  margin: auto;
+  text-align: center; }
+  .contenedor h2 {
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 28px; }
+  .contenedor .circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.9s;
+    margin: 10px; }
+    .contenedor .circulo.fbk {
+      background-color: #365396; }
+    .contenedor .circulo.twitter {
+      background-color: #00a8f0; }
+    .contenedor .circulo.linkedin {
+      background-color: #006eb3; }
+    .contenedor .circulo.gplus {
+      background-color: #e0462e; }
+    .contenedor .circulo.pinterest {
+      background-color: #cc1919; }
+    .contenedor .circulo:hover {
+      transform: scale(1.2); }
+    .contenedor .circulo.fbk:hover {
+      background-color: #1b294b; }
+    .contenedor .circulo.twitter:hover {
+      background-color: #00608a; }
+    .contenedor .circulo.linkedin:hover {
+      background-color: #002f4d; }
+    .contenedor .circulo.gplus:hover {
+      background-color: #922616; }
+    .contenedor .circulo.pinterest:hover {
+      background-color: #710e0e; }
+    .contenedor .circulo i {
+      font-size: 38px;
+      line-height: 100px;
+      color: white; }
+
+/*# sourceMappingURL=style.css.map */
